@@ -1,0 +1,29 @@
+h1, h2, h3, h4, h5, h6 {
+  background-color: #904C77;
+}
+
+body {
+  background-color: #717568;
+}
+
+nav a {
+  color: white;
+}
+.home-grid {
+  max-width: 960px;
+  margin: 0 auto;     
+  }
+.logo-box {
+  text-align: center;
+}
+.banner-box {
+  text-aligh: center;
+  max-width: 960;
+  margin: 0 auto;
+}
+.home-paragraph-3 {
+  text-align: center;
+  }
+.social {
+  text-align: center;
+}
