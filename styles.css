@@ -21,6 +21,12 @@ nav a {
   font-family: "helvetica";
   padding: 1.1em;
 }
+.home-headline-1, .home-headline-2, .home-headline-3 {
+  margin-bottom: -10px;
+}
+.banner-box, .home-left-img, .home-right-img {
+  margin-bottom: 20px;
+}
 .home-paragraph-3 {
   text-align: center;
   }
