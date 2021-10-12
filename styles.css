@@ -2,6 +2,9 @@
 
 h1, h2, h3, h4, h5, h6 {
   background-color: #904C77;
+  font-family: "crimson pro", "helvetica";
+  font-size: 24px;
+  padding: 1.2em;
 }
 
 body {
@@ -10,10 +13,13 @@ body {
 
 nav a {
   color: white;
+  font-size: 1.1em;
 }
 #content {
   max-width: 960px;
   margin: 0 auto;
+  font-family: "helvetica";
+  padding: 1.1em;
 }
 .home-paragraph-3 {
   text-align: center;
