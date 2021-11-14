@@ -98,3 +98,87 @@ footer {
 .social {
   text-align: right;
 }
+
+
+/* Blog page */
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.blog-headline-1 {
+  display: block;
+  grid-column: 2/7;
+  text-align: center;
+  font-size: 3em;
+}
+
+.blog-subheadline {
+  display: block;
+  grid-column: 3/6;
+  text-align: center;
+  font-size: 11px;
+}
+
+.blog-img {
+  display: block;
+  grid-column: 1/8;
+}
+
+.blog-paragraph-1 {
+  display: block;
+  grid-column: 1/8;
+}
+
+.blog-headline-2 {
+  grid-column: 1/4;
+}
+
+.blog-paragraph-2 {
+  grid-column: 1/4;
+}
+
+.blog-list-1 {
+  grid-column: 1/4;
+  margin-top: -400px;
+}
+
+.blog-paragraph-3 {
+  grid-column: 1/4;
+  margin-top: -200px;
+}
+
+.blog-list-2{
+  grid-column: 1/4;
+  margin-top: -50px;
+}
+
+.blog-left-img {
+  grid-column: 5/8;
+  margin-left: -70px;
+}
+
+
+/* contact us page */
+.contact-grid {
+  display: grid;
+  grid-template-columns: reapeat(7, 1fr);
+}
+
+.contact-banner {
+}
+
+.contact-headline-1 {
+  display: block;
+  font-size: 3em;
+  text-align: center;
+  grid-column: 1/8;
+  margin-top: -40px;
+}
+
+.contact-info a {
+  color: white;
+  font-size: 1.5em;
+  list-style: none;
+  text-decoration: none;
+}
